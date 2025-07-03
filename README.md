@@ -7,7 +7,6 @@ This repository contains a Python implementation of a Linear Regression model, a
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Mathematical Background](#mathematical-background)
-- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -43,6 +42,7 @@ y=
 beta_0+
 beta_1x_1+
 epsilon
+
 Where:
 
 y is the dependent variable.
@@ -75,20 +75,13 @@ epsilon
 
 The OLS solution for 
 beta is given by:
-hatbeta=(X 
+hatbeta=(X
 T
  X) 
 −1
- X 
+ X
 T
  Y
-
-## Examples
-You can find detailed examples of how to use this linear regression model in the examples/ directory:
-
-simple_linear_regression_example.py: Demonstrates training and evaluating a simple linear regression model on a synthetic dataset.
-
-multiple_linear_regression_example.py: Shows how to use the model with multiple features and a more complex dataset.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or want to contribute to the codebase, please feel free to open an issue or submit a pull request.
