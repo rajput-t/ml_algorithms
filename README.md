@@ -75,12 +75,10 @@ epsilon
 
 The OLS solution for 
 beta is given by:
-hatbeta=(X
-T
+hatbeta=(XT
  X) 
 −1
- X
-T
+ XT
  Y
 
 ## Contributing
