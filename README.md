@@ -10,6 +10,7 @@ This repository serves as a comprehensive collection of fundamental machine lear
 - [Repository Structure](#repository-structure)
 - [Algorithms Implemented](#algorithms-implemented)
 - [Features](#features)
+- [Mathematical Background](#mathematical-background)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -69,7 +70,58 @@ To run the notebooks in this repository, you'll need the following Python librar
 You can install these dependencies using pip:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
+```
+Mathematical Background
+This section provides a brief overview of the mathematical foundations for some of the implemented algorithms. Detailed explanations are provided within the respective notebooks.
 
+Linear Regression
+Linear Regression aims to model the relationship between a dependent variable y and one or more independent variables X by fitting a linear equation to the observed data.
+
+Simple Linear Regression
+For a single independent variable, the equation is:
+y=beta_0+beta_1x_1+epsilon
+
+Where:
+
+y is the dependent variable.
+
+x_1 is the independent variable.
+
+beta_0 is the y-intercept.
+
+beta_1 is the slope coefficient.
+
+epsilon is the error term.
+
+The coefficients 
+beta_0 and 
+beta_1 are determined by minimizing the sum of squared residuals, known as the Ordinary Least Squares (OLS) method.
+
+Multiple Linear Regression
+For multiple independent variables, the equation extends to:
+y=
+beta_0+
+beta_1x_1+
+beta_2x_2+
+dots+
+beta_nx_n+
+epsilon
+
+In matrix form:
+Y=X
+beta+
+epsilon
+
+The OLS solution for 
+hatbeta is given by:
+hatbeta=(X 
+T
+ X) 
+−1
+ X 
+T
+ Y
+ 
 Contributing
 Contributions are highly welcome! If you have any suggestions, bug reports, or want to contribute to the codebase with new algorithms, improved implementations, or better explanations, please feel free to open an issue or submit a pull request.
 
